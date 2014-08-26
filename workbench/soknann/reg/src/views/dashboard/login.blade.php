@@ -31,25 +31,28 @@
 <body >
 <div class="navbar navbar-inner navbar-fixed-top" style="background-color: #008AB8; color: #ffffff; padding-top: 6px;">
     <div class="container">
-        <h4>Master Information Technology Center</h4>
+        <h4 style="text-align: center;">Master Information Technology Center</h4>
     </div>
 </div>
     <div class="navbar" style="background-color: #E7E7E9; color: #9da0a4; padding-top: 8px;">
-        <div class="container">
-            <h5><i class="glyphicon glyphicon-log-in"></i> Log in</h5>
-        </div>
-    </div>
-    <div class="container">
-        <div class="page-header" style="margin-top: -20px;">
+        <div class="container" style="text-align: center; height: 100px; color: #000000;">
             <h2><i class="glyphicon glyphicon-log-in g"></i> Log in</h2>
         </div>
     </div>
+    <div class="container">
+        <!--<div class="page-header" style="margin-top: -15px; text-align: center;">
+            <?php echo HTML::image('packages/soknann/reg/bs-admin/img/shicon.png');?>
+        </div>-->
+    </div>
 <!-- PAGE CONTENT -->
-<div class="container" style="margin-top: 30px;">
+<div class="container" style="margin-top: 40px;">
     @include('soknann/reg::template.msg')
     <div class="tab-content">
         <div id="login" class="tab-pane active">
-            {{ Former::open(route('reg.login'))->method('POST')->class('form-signin')}}
+            <!--<div class="container">
+                <?php echo HTML::image('packages/soknann/reg/bs-admin/img/shicon.png');?>
+            </div>-->
+                {{ Former::open(route('reg.login'))->method('POST')->class('form-signin')}}
                 <p class="text-muted text-center btn-block btn btn-primary btn-rect">
                     Enter your username and password
                 </p>
@@ -91,8 +94,13 @@
 </div>
 
 <div class="navbar navbar-inner navbar-fixed-bottom" style="background-color: #008AB8; color: #ffffff;">
+    <div class="navbar" style="background-color: #E7E7E9; color: #9da0a4; padding-top: 8px; height: 100px;">
+        <div class="container">
+
+        </div>
+    </div>
     <div>
-        <h4 class="container" style="padding-top: 8px;">COPYRIGHT © 2014 Thesis IT Team.</h4>
+        <h4 class="container" style="text-align: center;">COPYRIGHT © 2014 Thesis IT Team.</h4>
     </div>
 </div>
 
