@@ -40,12 +40,12 @@
         </div>
     </div>
     <div class="container">
-        <!--<div class="page-header" style="margin-top: -15px; text-align: center;">
-            <?php echo HTML::image('packages/soknann/reg/bs-admin/img/shicon.png');?>
-        </div>-->
+        <div class="page-header" style="margin-top: -15px; text-align: center;">
+            <h5>Hello Everyone</h5>
+        </div>
     </div>
 <!-- PAGE CONTENT -->
-<div class="container" style="margin-top: 40px;">
+<div class="container" style="margin-top: 30px;">
     @include('soknann/reg::template.msg')
     <div class="tab-content">
         <div id="login" class="tab-pane active">

@@ -14,7 +14,6 @@
                 </a>
             </P>
         </div>
-
     </div>
     {{Former::open(route('reg.student.store'))->method('POST')->enctype('multipart/form-data')}}
     <div class="row">

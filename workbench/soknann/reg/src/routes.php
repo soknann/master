@@ -214,6 +214,53 @@ Route::group(array('prefix' => 'reg', 'before' => 'auth.reg'), function () {
      * End Time
      */
 
+    /*
+    * Start Course
+    */
+
+    Route::get('course', array(
+        'as' => 'reg.course.index',
+        'uses' => 'Soknann\Reg\CourseController@index'
+    ));
+
+    Route::post('course', array(
+        'as' => 'reg.course.store',
+        'uses' => 'Soknann\Reg\CourseController@store'
+    ));
+
+    Route::get('course/add', array(
+        'as' => 'reg.course.add',
+        'uses' => 'Soknann\Reg\CourseController@add'
+    ));
+
+    Route::get('course/{id}/edit', array(
+        'as' => 'reg.course.edit',
+        'uses' => 'Soknann\Reg\CourseController@edit'
+    ));
+
+    Route::put('course/update/{id}', array(
+        'as' => 'reg.course.update',
+        'uses' => 'Soknann\Reg\CourseController@update'
+    ));
+
+    Route::delete('course/destroy/{id}', array(
+        'as' => 'reg.course.destroy',
+        'uses' => 'Soknann\Reg\CourseController@destroy'
+    ));
+
+    Route::get('course/{id}/show', array(
+        'as' => 'reg.course.show',
+        'uses' => 'Soknann\Reg\CourseController@show'
+    ));
+
+
+
+
+
+    /*
+    * End Course
+    */
+
     Route::get('rptStudent', array(
         'as' => 'reg.student.rpt',
         'uses' => 'Soknann\Reg\StudentController@reportstudent',
@@ -260,6 +307,11 @@ Route::get('api/teacher', array(
 Route::get('api/subject', array(
     'as' => 'api.subject',
     'uses' => 'Soknann\Reg\SubjectController@getDatatable'
+));
+
+Route::get('api/course', array(
+    'as' => 'api.course',
+    'uses' => 'Soknann\Reg\CourseController@getDatatable'
 ));
 
 

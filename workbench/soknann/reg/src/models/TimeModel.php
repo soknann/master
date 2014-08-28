@@ -10,7 +10,7 @@
 namespace Soknann\Reg;
 
 use Eloquent;
-class TimeController extends Eloquent  {
+class TimeModel extends Eloquent  {
 
     protected $table = 'tbl_time';
     protected $primaryKey = 'ti_id';

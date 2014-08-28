@@ -5,16 +5,16 @@
 <div class="inner col-lg-12">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header"><i class="icon-book"></i> Course</h1>
+            <h1 class="page-header"><i class="icon-archive"></i> Course</h1>
             <p>
-                <a class="btn btn-primary" href="{{route('reg.subject.index')}}">
-                    <i class="icon-backward"></i> Back to Subject List
+                <a class="btn btn-primary" href="{{route('reg.course.index')}}">
+                    <i class="icon-backward"></i> Back to Course List
                 </a>
             </P>
         </div>
 
     </div>
-    {{Former::open(route('reg.subject.store'))}}
+    {{Former::open(route('reg.course.store'))}}
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default">
@@ -24,9 +24,10 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            {{ Former::text('subject', 'Subject')->required()}}
-                            {{ Former::text('duration', 'Duration')}}
-                            {{ Former::text('price', 'Price ($)')->required()}}
+                            {{ Former::text('cou_name', 'Course')}}
+                            {{ Former::text('sub_id', 'Subject')}}
+                            {{ Former::text('tea_id', 'Teacher')}}
+                            {{ Former::text('term', 'Term')}}
                         </div>
                         <div class="col-lg-6">
                             {{Former::text('start', 'Start Date')
@@ -35,6 +36,7 @@
                             {{Former::text('end', 'End Date')
                             ->placeholder('YYYY-MM-DD')
                             ->required()->readonly()}}
+                            {{ Former::text('price', 'Price ($)')}}
                         </div>
                     </div>
                 </div>
