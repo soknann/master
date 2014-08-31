@@ -31,7 +31,17 @@
     <?php echo HTML::style('packages/soknann/reg/datatable/css/jquery.dataTables.css'); ?>
     <?php echo HTML::style("packages/soknann/reg/bs-admin/plugins/daterangepicker/daterangepicker-bs3.css"); ?>
     <?php echo HTML::style("packages/soknann/reg/bs-admin/plugins/datepicker/css/datepicker.css"); ?>
-
+    <style>
+        a{
+            color: #000000;
+        }
+        #menu > li > a{
+            color: #000000;
+        }
+        .img-thumbnail {
+            border: 0px;
+        }
+    </style>
     @yield('css')
     <!-- END PAGE LEVEL  STYLES -->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

@@ -32,4 +32,12 @@ class Lookup {
         }
         return $data;
     }
+
+    public function getSubjectList(){
+        $subList = \DB::select('select * from tbl_subject');
+        foreach ($subList as $row){
+            $data[$row->sub_id] = $row->sub_name;
+        }
+        return $data;
+    }
 }

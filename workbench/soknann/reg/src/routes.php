@@ -253,12 +253,52 @@ Route::group(array('prefix' => 'reg', 'before' => 'auth.reg'), function () {
         'uses' => 'Soknann\Reg\CourseController@show'
     ));
 
-
-
+    /*
+    * End Course
+    */
 
 
     /*
-    * End Course
+    * Start Course Type
+    */
+
+    Route::get('course_type', array(
+        'as' => 'reg.course_type.index',
+        'uses' => 'Soknann\Reg\CourseTypeController@index'
+    ));
+
+    Route::post('course_type', array(
+        'as' => 'reg.course_type.store',
+        'uses' => 'Soknann\Reg\CourseTypeController@store'
+    ));
+
+    Route::get('course_type/add', array(
+        'as' => 'reg.course_type.add',
+        'uses' => 'Soknann\Reg\CourseTypeController@add'
+    ));
+
+    Route::get('course_type/{id}/edit', array(
+        'as' => 'reg.course_type.edit',
+        'uses' => 'Soknann\Reg\CourseTypeController@edit'
+    ));
+
+    Route::put('course_type/update/{id}', array(
+        'as' => 'reg.course_type.update',
+        'uses' => 'Soknann\Reg\CourseTypeController@update'
+    ));
+
+    Route::delete('course_type/destroy/{id}', array(
+        'as' => 'reg.course_type.destroy',
+        'uses' => 'Soknann\Reg\CourseTypeController@destroy'
+    ));
+
+    Route::get('course_type/{id}/show', array(
+        'as' => 'reg.course_type.show',
+        'uses' => 'Soknann\Reg\CourseTypeController@show'
+    ));
+
+    /*
+    * End Course Type
     */
 
     Route::get('rptStudent', array(
@@ -312,6 +352,11 @@ Route::get('api/subject', array(
 Route::get('api/course', array(
     'as' => 'api.course',
     'uses' => 'Soknann\Reg\CourseController@getDatatable'
+));
+
+Route::get('api/course_type', array(
+    'as' => 'api.course_type',
+    'uses' => 'Soknann\Reg\CourseTypeController@getDatatable'
 ));
 
 

@@ -9,6 +9,9 @@
                <a class="btn btn-primary" href="{{route('reg.course.add')}}">
                     <i class="icon-folder-open"></i> Add New
                </a>
+                <a class="btn btn-primary" href="{{route('reg.course_type.index')}}">
+                    <i class="icon-archive"></i> Course Type
+                </a>
             </P>
         </div>
     </div>

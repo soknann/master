@@ -14,7 +14,7 @@ class BaseController extends Controller {
         $this->layout->title = 'Master Center';
         $this->layout->footer = '&copy;  MPP Group Thesis &nbsp;2014 &nbsp;';
         $this->layout->logo = 'Master Information Technology Center';
-        $this->layout->mslogo = url('packages/soknann/reg/bs-admin/img/Master.jpg');
+        $this->layout->mslogo = url('packages/soknann/reg/bs-admin/img/Master.png');
         $this->layout->shicon = url('packages/soknann/reg/bs-admin/img/shicon.png');
     }
 }
