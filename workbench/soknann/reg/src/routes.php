@@ -210,22 +210,22 @@ Route::group(array('prefix' => 'reg', 'before' => 'auth.reg'), function () {
        'uses' => 'Soknann\Reg\TimeController@add'
     ));
 
-    Route::get('time/edit/{id}', array(
+    Route::get('time/{id}/edit', array(
         'as' => 'reg.time.edit',
         'uses' => 'Soknann\Reg\TimeController@edit'
     ));
 
-    Route::get('time/{id}/update}', array(
+    Route::put('time/update/{id}}', array(
         'as' => 'reg.time.update',
         'uses' => 'Soknann\Reg\TimeController@update'
     ));
 
-    Route::get('time/destroy/{id}', array(
+    Route::delete('time/destroy/{id}', array(
         'as' => 'reg.time.destroy',
         'uses' => 'Soknann\Reg\TimeController@destroy'
     ));
 
-    Route::get('time/show/{id}', array(
+    Route::get('time/{id}/show}', array(
         'as' => 'reg.time.show',
         'uses' => 'Soknann\Reg\TimeController@show'
     ));

@@ -26,7 +26,7 @@ class Lookup {
     }
 
     public function getWeekly(){
-        return array('M-F'=>'M-F', 'Weekly'=>'Weekly');
+        return array('M-F'=>'M-F', 'Weekend'=>'Weekend');
     }
 
     public function getStudentList(){

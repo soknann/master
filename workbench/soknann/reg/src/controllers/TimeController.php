@@ -13,6 +13,7 @@ use Chumper\Datatable\Datatable;
 use Soknann\Reg\Validators\StudentValidator;
 use Soknann\Reg\Validators\SubjectValidator;
 use Soknann\Reg\Validators\TeacherValidator;
+use Soknann\Reg\Validators\TimeValidator;
 use Soknann\Reg\Validators\UserValidator;
 use Redirect;
 use View;
@@ -57,14 +58,14 @@ class TimeController extends BaseController
 
     public function store()
     {
-        //$validator = SubjectValidator::make();
-        //if ($validator->passes()) {
+        $validator = TimeValidator::make();
+        if ($validator->passes()) {
             $data = new TimeModel();
             $this->saveData($data);
 
             return Redirect::back()
                 ->with('success', "Save Successful");
-        //}
+        }
         return \Redirect::back()->withInput()->withErrors($validator->errors());
     }
 
@@ -87,18 +88,18 @@ class TimeController extends BaseController
     public function update($id)
     {
         try {
-           //$validator = SubjectValidator::make();
-           //if ($validator->passes()) {
+           $validator = TimeValidator::make();
+           if ($validator->passes()) {
 
                 $data = TimeModel::where('ti_id', '=' ,$id)->first();
                 $this->saveData($data,false);
 
                 return Redirect::route('reg.time.index')
                     ->with('success', "Update Successful");
-           //}
+           }
             return Redirect::back()->withInput()->withErrors($validator->errors());
         } catch (\Exception $e) {
-            return Redirect::route('reg.subject.index')->with('error', "Errors ");
+            return Redirect::route('reg.time.index')->with('error', "Errors ");
         }
     }
 
