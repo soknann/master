@@ -45,16 +45,5 @@
 
 @stop
 @section('js')
-<script>
-    $('#start').datepicker({
-        format: 'yyyy-mm-dd'
-    });
-    $('#start').datepicker();
 
-    $('#end').datepicker({
-        format: 'yyyy-mm-dd'
-    });
-    $('#end').datepicker();
-
-</script>
 @stop

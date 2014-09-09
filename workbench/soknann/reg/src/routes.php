@@ -230,10 +230,50 @@ Route::group(array('prefix' => 'reg', 'before' => 'auth.reg'), function () {
         'uses' => 'Soknann\Reg\TimeController@show'
     ));
 
-
-
     /*
      * End Time
+     */
+
+    /*
+    * Start Lab
+    */
+     Route::get('lab', array(
+         'as' => 'reg.lab.index',
+         'uses' => 'Soknann\Reg\LabController@index'
+     ));
+
+    Route::post('lab', array(
+        'as' => 'reg.lab.store',
+        'uses' => 'Soknann\Reg\LabController@store'
+    ));
+
+    Route::get('lab/add', array(
+        'as' => 'reg.lab.add',
+        'uses' => 'Soknann\Reg\LabController@add'
+    ));
+
+    Route::get('lab/{id}/edit', array(
+        'as' => 'reg.lab.edit',
+        'uses' => 'Soknann\Reg\LabController@edit'
+    ));
+
+    Route::put('lab/update/{id}', array(
+        'as' => 'reg.lab.update',
+        'uses' => 'Soknann\Reg\LabController@update'
+    ));
+
+    Route::delete('lab/destroy/{id}', array(
+        'as' => 'reg.lab.destroy',
+        'uses' => 'Soknann\Reg\LabController@destroy'
+    ));
+
+    Route::get('lab/{id}/show', array(
+        'as' => 'reg.lab.show',
+        'uses' => 'Soknann\Reg\LabController@show'
+    ));
+
+    /*
+     * End Lab
      */
 
     /*
@@ -381,9 +421,9 @@ Route::get('api/course_type', array(
     'uses' => 'Soknann\Reg\CourseTypeController@getDatatable'
 ));
 
-Route::get('api/time', array(
-    'as' => 'api.time',
-    'uses' => 'Soknann\Reg\TimeController@getDatatable'
+Route::get('api/lab', array(
+    'as' => 'api.lab',
+    'uses' => 'Soknann\Reg\LabController@getDatatable'
 ));
 
 Route::get('test', function () {

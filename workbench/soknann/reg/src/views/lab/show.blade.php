@@ -4,16 +4,16 @@
 <div class="inner col-lg-12">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header"><i class="icon-time"></i> Time Information</h1>
+            <h1 class="page-header"><i class="icon-desktop"></i> Lab Information</h1>
             <p>
-                <a class="btn btn-primary" href="{{route('reg.time.index')}}">
-                    <i class="icon-backward"></i> Back to Time List
+                <a class="btn btn-primary" href="{{route('reg.lab.index')}}">
+                    <i class="icon-backward"></i> Back to Lab List
                 </a>
             </P>
         </div>
 
     </div>
-    {{Former::open(route('reg.time.show',$row->ti_id))}}
+    {{Former::open(route('reg.lab.show',$row->lab_id))}}
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default">
@@ -23,13 +23,10 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            {{ Former::text('time', 'Time',$row->time)->readonly()}}
+                            {{ Former::text('lab', 'Lab Name',$row->lab_name)->readonly()}}
                         </div>
                         <div class="col-lg-6">
-                            {{ Former::select('weekly', 'Weekly', \Lookup::getWeekly(),$row->weekly)
-                            ->placeholder('- Select One -')
-                            ->class('form-control chzn-select')
-                            ->readonly()}}
+                            {{ Former::textarea('memo', 'Note',$row->lab_memo)->readonly()}}
                         </div>
                     </div>
                 </div>

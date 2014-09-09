@@ -57,7 +57,7 @@
 </li>
 
 <li class="panel">
-    <a href="{{ route('reg.student.index' )}}" >
+    <a href="{{ route('reg.lab.index' )}}" >
         <i class="icon-desktop"></i> Labs
     </a>
 </li>
