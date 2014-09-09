@@ -18,7 +18,7 @@ use Redirect;
 use View;
 use Input;
 
-class SubjectController extends BaseController
+class TimeController extends BaseController
 {
 
     public function index()
@@ -26,17 +26,14 @@ class SubjectController extends BaseController
         $item = array(
             'Action',
             'ID',
-            'Subject Name',
-            'Duration',
-            'Price ($)',
-            'Start Date',
-            'End Date',
+            'Time',
+            'Weekly',
         );
 //        $data['btnAction'] = array('Add New' => route('cpanel.user.create'));
         $tb = new Datatable();
         $data['table'] = $tb->table()
             ->addColumn($item) // these are the column headings to be shown
-            ->setUrl(route('api.subject')) // this is the route where data will be retrieved
+            ->setUrl(route('api.time')) // this is the route where data will be retrieved
             ->setOptions(
                 'aLengthMenu',
                 array(
@@ -47,58 +44,58 @@ class SubjectController extends BaseController
             ->setOptions("iDisplayLength", '10')// default show entries
             ->render('soknann/reg::template.dataTable');
         return $this->renderLayout(
-            \View::make('soknann/reg::subject.index', $data)
+            \View::make('soknann/reg::time.index', $data)
         );
     }
 
     public function add()
     {
         return $this->renderLayout(
-            \View::make('soknann/reg::subject.add')
+            \View::make('soknann/reg::time.add')
         );
     }
 
     public function store()
     {
-        $validator = SubjectValidator::make();
-        if ($validator->passes()) {
-            $data = new SubjectModel();
+        //$validator = SubjectValidator::make();
+        //if ($validator->passes()) {
+            $data = new TimeModel();
             $this->saveData($data);
 
             return Redirect::back()
                 ->with('success', "Save Successful");
-        }
+        //}
         return \Redirect::back()->withInput()->withErrors($validator->errors());
     }
 
     public function edit($id)
     {
-        $data['row'] = SubjectModel::where('sub_id', '=' ,$id)->first();
+        $data['row'] = TimeModel::where('ti_id', '=' ,$id)->first();
         return $this->renderLayout(
-            \View::make('soknann/reg::subject.edit', $data)
+            \View::make('soknann/reg::time.edit', $data)
         );
     }
 
     public function show($id)
     {
-        $data['row'] = SubjectModel::where('sub_id', '=' ,$id)->first();
+        $data['row'] = TimeModel::where('ti_id', '=' ,$id)->first();
         return $this->renderLayout(
-            \View::make('soknann/reg::subject.show', $data)
+            \View::make('soknann/reg::time.show', $data)
         );
     }
 
     public function update($id)
     {
         try {
-           $validator = SubjectValidator::make();
-           if ($validator->passes()) {
+           //$validator = SubjectValidator::make();
+           //if ($validator->passes()) {
 
-                $data = SubjectModel::where('sub_id', '=' ,$id)->first();
+                $data = TimeModel::where('ti_id', '=' ,$id)->first();
                 $this->saveData($data,false);
 
-                return Redirect::route('reg.subject.index')
+                return Redirect::route('reg.time.index')
                     ->with('success', "Update Successful");
-           }
+           //}
             return Redirect::back()->withInput()->withErrors($validator->errors());
         } catch (\Exception $e) {
             return Redirect::route('reg.subject.index')->with('error', "Errors ");
@@ -108,24 +105,21 @@ class SubjectController extends BaseController
     public function destroy($id)
     {
         try {
-            $data = SubjectModel::where('sub_id', '=', $id)->first();
+            $data = TimeModel::where('ti_id', '=', $id)->first();
             $data->delete();
-            return Redirect::back()->with('success', trans('soknann/reg::subject.delete_success'));
+            return Redirect::back()->with('success', trans('soknann/reg::time.delete_success'));
         } catch (\Exception $e) {
-            return Redirect::route('reg.subject.index')->with('error', trans('soknann/reg::db_error.fail'));
+            return Redirect::route('reg.time.index')->with('error', trans('soknann/reg::db_error.fail'));
         }
     }
 
     private function saveData($data,$store=true)
     {
         if ($store){
-            $data->sub_id = Input::get('sub_id');
+            $data->ti_id = Input::get('ti_id');
         }
-        $data->sub_name = Input::get('subject');
-        $data->sub_cost = Input::get('price');
-        $data->sub_duration = Input::get('duration');
-        $data->sub_start_date = Input::get('start');
-        $data->sub_end_date = Input::get('end');
+        $data->time = Input::get('time');
+        $data->weekly = Input::get('weekly');
 //        $data->remember_token = '';
         $data->save();
     }
@@ -133,28 +127,25 @@ class SubjectController extends BaseController
     public function getDatatable()
     {
         $item = array(
-            'sub_id',
-            'sub_name',
-            'sub_duration',
-            'sub_cost',
-            'sub_start_date',
-            'sub_end_date',
+            'ti_id',
+            'time',
+            'weekly',
         );
-        $arr = \DB::table('tbl_subject')->orderBy('sub_id');
+        $arr = \DB::table('tbl_time')->orderBy('ti_id');
 
         return \Datatable::query($arr)
            ->addColumn(
                 'action',
                 function ($model) {
                     return \Action::make()
-                        ->show(route('reg.subject.show',$model->sub_id))
-                        ->edit(route('reg.subject.edit', $model->sub_id))
-                        ->delete(route('reg.subject.destroy', $model->sub_id))
+                        ->show(route('reg.time.show',$model->ti_id))
+                        ->edit(route('reg.time.edit', $model->ti_id))
+                        ->delete(route('reg.time.destroy', $model->ti_id))
                         ->get();
                 }
             )
             ->showColumns($item)
-            ->searchColumns(array('sub_id','sub_name','sub_duration','sub_cost'))
+            ->searchColumns(array('time','weekly'))
             ->orderColumns($item)
             ->make();
     }

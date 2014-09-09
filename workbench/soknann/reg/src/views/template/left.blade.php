@@ -51,7 +51,7 @@
 </li>
 
 <li class="panel">
-    <a href="{{ route('reg.student.index' )}}" >
+    <a href="{{ route('reg.time.index' )}}" >
         <i class="icon-time"></i> Time
     </a>
 </li>
@@ -77,7 +77,7 @@
         <li class=""><a href="{{ route('reg.rpt_student.index')}}"><i class="icon-angle-right"></i> Teacher </a></li>
     </ul>
 </li>
-<li class="panel ">
+<!--<li class="panel ">
     <a href="#" data-parent="#menu" data-toggle="collapse" class="accordion-toggle collapsed" data-target="#form-nav">
         <i class="icon-pencil"></i> Forms
 

@@ -25,28 +25,22 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            {{ Former::text('kh_fname', 'KH First Name')->required()}}
-                            {{ Former::text('kh_lname', 'KH Last Name')->required()}}
-                            {{ Former::text('en_fname', 'EN First Name')->required()}}
-                            {{ Former::text('en_lname', 'EN Last Name')->required()}}
+                            {{ Former::text('kh_fname', 'Student Name')->required()}}
+                            {{ Former::text('kh_lname', 'Teacher Name')->required()}}
+                            {{ Former::text('en_fname', 'Time')->required()}}
+                            {{ Former::text('en_lname', 'Lab')->required()}}
 
-                            {{ Former::select('gender', 'Gender', \Lookup::getStudentList())
+                        </div>
+                        <div class="col-lg-6">
+                            {{ Former::select('gender', 'Course', \Lookup::getStudentList())
                             ->placeholder('- Select One -')
                             ->class("form-control")
                             ->style("margin-bottom: 10px")
                             ->required()}}
 
-                            {{Former::text('dob', 'DOB')
+                            {{Former::text('dob', 'Date')
                             ->placeholder('yyyy-mm-dd')
                             ->required()->readonly()}}
-                            {{ Former::text('pob', 'POB')}}
-                        </div>
-                        <div class="col-lg-6">
-                            {{ Former::textarea('address', 'Address')->required() }}
-                            {{ Former::text('phone', 'Phone')->required()}}
-                            {{ Former::text('email', 'E-mail')}}
-                            {{ Former::file('attach_photo', 'Photo')}}
-                            {{ Former::textarea('memo', 'Other')}}
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
 <div class="inner col-lg-12">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header"><i class="icon-book"></i> Course</h1>
+            <h1 class="page-header"><i class="icon-book"></i> Subject</h1>
             <p>
                 <a class="btn btn-primary" href="{{route('reg.subject.index')}}">
                     <i class="icon-backward"></i> Back to Subject List

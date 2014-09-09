@@ -210,6 +210,28 @@ Route::group(array('prefix' => 'reg', 'before' => 'auth.reg'), function () {
        'uses' => 'Soknann\Reg\TimeController@add'
     ));
 
+    Route::get('time/edit/{id}', array(
+        'as' => 'reg.time.edit',
+        'uses' => 'Soknann\Reg\TimeController@edit'
+    ));
+
+    Route::get('time/{id}/update}', array(
+        'as' => 'reg.time.update',
+        'uses' => 'Soknann\Reg\TimeController@update'
+    ));
+
+    Route::get('time/destroy/{id}', array(
+        'as' => 'reg.time.destroy',
+        'uses' => 'Soknann\Reg\TimeController@destroy'
+    ));
+
+    Route::get('time/show/{id}', array(
+        'as' => 'reg.time.show',
+        'uses' => 'Soknann\Reg\TimeController@show'
+    ));
+
+
+
     /*
      * End Time
      */
@@ -359,6 +381,10 @@ Route::get('api/course_type', array(
     'uses' => 'Soknann\Reg\CourseTypeController@getDatatable'
 ));
 
+Route::get('api/time', array(
+    'as' => 'api.time',
+    'uses' => 'Soknann\Reg\TimeController@getDatatable'
+));
 
 Route::get('test', function () {
     return Hash::make('123456');

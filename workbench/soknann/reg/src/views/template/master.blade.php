@@ -41,6 +41,10 @@
         .img-thumbnail {
             border: 0px;
         }
+
+        sup{
+            color: red;
+        }
     </style>
     @yield('css')
     <!-- END PAGE LEVEL  STYLES -->

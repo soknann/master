@@ -34,18 +34,8 @@
         <h4 style="text-align: center;">Master Information Technology Center</h4>
     </div>
 </div>
-    <div class="navbar" style="background-color: #E7E7E9; color: #9da0a4; padding-top: 8px;">
-        <div class="container" style="text-align: center; height: 100px; color: #000000;">
-            <h2><i class="glyphicon glyphicon-log-in g"></i> Log in</h2>
-        </div>
-    </div>
-    <div class="container">
-        <div class="page-header" style="margin-top: -15px; text-align: center;">
-            <h5>Hello Everyone</h5>
-        </div>
-    </div>
 <!-- PAGE CONTENT -->
-<div class="container" style="margin-top: 30px;">
+<div class="container" style="margin-top: 50px;">
     @include('soknann/reg::template.msg')
     <div class="tab-content">
         <div id="login" class="tab-pane active">
@@ -84,24 +74,13 @@
     </div>
     <div class="text-center">
         <ul class="list-inline">
-            <!--<li><a class="text-muted" href="#login" data-toggle="tab">Login</a></li>
+            <li><a class="text-muted" href="#login" data-toggle="tab">Login</a></li>
             <li><a class="text-muted" href="#forgot" data-toggle="tab">Forgot Password</a></li>
-            <li><a class="text-muted" href="#signup" data-toggle="tab">Signup</a></li>-->
+            <!--<li><a class="text-muted" href="#signup" data-toggle="tab">Signup</a></li>-->
         </ul>
     </div>
 
 
-</div>
-
-<div class="navbar navbar-inner navbar-fixed-bottom" style="background-color: #008AB8; color: #ffffff;">
-    <div class="navbar" style="background-color: #E7E7E9; color: #9da0a4; padding-top: 8px; height: 100px;">
-        <div class="container">
-
-        </div>
-    </div>
-    <div>
-        <h4 class="container" style="text-align: center;">COPYRIGHT © 2014 Thesis IT Team.</h4>
-    </div>
 </div>
 
 <!--END PAGE CONTENT -->

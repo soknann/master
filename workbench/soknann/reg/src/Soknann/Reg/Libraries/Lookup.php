@@ -25,6 +25,10 @@ class Lookup {
         return array('male'=>'Male', 'female'=>'Female');
     }
 
+    public function getWeekly(){
+        return array('M-F'=>'M-F', 'Weekly'=>'Weekly');
+    }
+
     public function getStudentList(){
         $stList = \DB::select('select * from tbl_students');
         foreach ($stList as $row){
