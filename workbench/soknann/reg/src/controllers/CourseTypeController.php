@@ -27,7 +27,6 @@ class CourseTypeController extends BaseController
             'Action',
             'ID',
             'Course Name',
-            'Subject Name',
         );
 //        $data['btnAction'] = array('Add New' => route('cpanel.user.create'));
         $tb = new Datatable();
@@ -59,7 +58,7 @@ class CourseTypeController extends BaseController
     {
         //$validator = SubjectValidator::make();
        // if ($validator->passes()) {
-            $data = new CourseTypeController();
+            $data = new CourseTypeModel();
             $this->saveData($data);
 
             return Redirect::back()
@@ -70,9 +69,9 @@ class CourseTypeController extends BaseController
 
     public function edit($id)
     {
-        $data['row'] = CourseModel::where('cou_id', '=' ,$id)->first();
+        $data['row'] = CourseTypeModel::where('cou_de_id', '=' ,$id)->first();
         return $this->renderLayout(
-            \View::make('soknann/reg::course.edit', $data)
+            \View::make('soknann/reg::course_type.edit', $data)
         );
     }
 
@@ -118,8 +117,8 @@ class CourseTypeController extends BaseController
         if ($store){
             $data->cou_de_id = Input::get('cou_de_id');
         }
-        $data->sub_id = Input::get('sub_id');
-        $data->cou_de_name = Input::get('cou_de_name');
+        $data->sub_id = json_encode(Input::get('sub_id'));
+        $data->cou_de_name = Input::get('cou_name');
 //        $data->remember_token = '';
         $data->save();
     }

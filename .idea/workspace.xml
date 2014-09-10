@@ -2,31 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d813bd15-68cd-4c66-8371-8747ba94d895" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/LabController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/models/LabModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/LabValidator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/add.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/lab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/time/add.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/time/add.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/time/edit.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/time/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/template/left.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/template/left.blade.php" />
+      <change type="DELETED" beforePath="D:\wamp\www\master\db.psc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reg.psc" afterPath="$PROJECT_DIR$/reg.psc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseTypeController.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseTypeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/LabValidator.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/LabValidator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/add.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/subject/add.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/subject/add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/index.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/index.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/template/master.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/template/master.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/routes.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/time/show.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/time/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="master.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410280283687" ignored="false" />
-    <file path="/dummy.txt" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410282626134" ignored="false" />
-    <file path="/master.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410233681592" ignored="false" />
-    <file path="/index.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410281448893" ignored="false" />
-    <file path="/CourseTypeController.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1409392137537" ignored="false" />
+    <file path="/Dummy.txt" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410311595497" ignored="false" />
+    <file path="/dummy.txt" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410339128621" ignored="false" />
+    <file path="/master.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410322982779" ignored="false" />
+    <file path="/index.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410342073306" ignored="false" />
+    <file path="/CourseTypeController.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410340188604" ignored="false" />
     <file path="/CourseTypeModel.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1409391135206" ignored="false" />
-    <file path="/add.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410283443766" ignored="false" />
-    <file path="/Lookup.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410235083589" ignored="false" />
+    <file path="/add.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410336975388" ignored="false" />
+    <file path="/Lookup.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410314671335" ignored="false" />
     <file path="/TimeController.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410279824231" ignored="false" />
     <file path="/login.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1409989199221" ignored="false" />
     <file path="/home.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1409987789113" ignored="false" />
@@ -39,7 +38,9 @@
     <file path="/TimeValidator.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410279683672" ignored="false" />
     <file path="/LabModel.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410281388743" ignored="false" />
     <file path="/LabController.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410283413376" ignored="false" />
-    <file path="/LabValidator.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410283338052" ignored="false" />
+    <file path="/LabValidator.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410313900889" ignored="false" />
+    <file path="/select2.css" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410333524212" ignored="false" />
+    <file path="/chosen.min.css" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410338541177" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +61,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="5" selection-start="562" selection-end="562" vertical-scroll-proportion="-13.730769">
+            <state line="19" column="31" selection-start="689" selection-end="689" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/add.blade.php">
+      <file leaf-file-name="add.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="62" selection-start="875" selection-end="887" vertical-scroll-proportion="0.25403225">
+            <state line="66" column="9" selection-start="2033" selection-end="2033" vertical-scroll-proportion="-26.346153">
               <folding />
             </state>
           </provider>
@@ -80,52 +81,43 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="424" column="22" selection-start="10461" selection-end="10461" vertical-scroll-proportion="-11.384615">
+            <state line="431" column="3" selection-start="10635" selection-end="10635" vertical-scroll-proportion="-71.80769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/show.blade.php">
+      <file leaf-file-name="master.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/template/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="47" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-18.307692">
+            <state line="21" column="74" selection-start="1159" selection-end="1159" vertical-scroll-proportion="-13.730769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lab.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/lab.php">
+      <file leaf-file-name="CourseTypeController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseTypeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="44" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.3076923">
+            <state line="28" column="26" selection-start="575" selection-end="575" vertical-scroll-proportion="0.5120482">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LabController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/LabController.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/users/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="33" selection-start="1621" selection-end="1621" vertical-scroll-proportion="-2.6153846">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LabValidator.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/LabValidator.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="239" selection-end="239" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="89" selection-start="939" selection-end="939" vertical-scroll-proportion="-3.5384614">
+            <state line="19" column="26" selection-start="709" selection-end="709" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
@@ -140,6 +132,8 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
+      <command text="php artisan dump-autoload" />
+      <command text="php artisan dump-autoload" />
       <command text="php artisan dump-autoload" />
       <command text="php artisan dump-autoload" />
       <command text="php artisan dump-autoload" />
@@ -164,22 +158,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/TimeValidator.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/TimeController.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/models/LabModel.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/template/left.blade.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/index.blade.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/time/add.blade.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/time/edit.blade.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/time/show.blade.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/routes.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/show.blade.php" />
         <option value="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/lab.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/LabValidator.php" />
         <option value="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/LabController.php" />
         <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/add.blade.php" />
         <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/edit.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/routes.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/LabValidator.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/subject/add.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/index.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/template/master.blade.php" />
+        <option value="$PROJECT_DIR$/public/packages/soknann/reg/select2/select2.css" />
+        <option value="$PROJECT_DIR$/public/packages/soknann/reg/bs-admin/plugins/chosen/chosen.min.css" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/add.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/index.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseTypeController.php" />
       </list>
     </option>
   </component>
@@ -214,6 +208,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -340,7 +335,143 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soknann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soknann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soknann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="student" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soknann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpt_student" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,6 +535,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course_type" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workbench" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soknann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Soknann" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -446,7 +611,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Validators" />
+              <option name="myItemId" value="Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,7 +749,81 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soknann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soknann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bs-admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -599,38 +838,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -687,29 +899,33 @@
       <created>1410280290364</created>
       <updated>1410280290364</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lab exit">
+      <created>1410283617074</created>
+      <updated>1410283617074</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1365" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28702992" sideWeight="0.6713533" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29163468" sideWeight="0.67250437" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32749563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32749563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32749563" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -757,7 +973,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="time last edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab exit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -775,119 +991,126 @@
     <MESSAGE value="change something" />
     <MESSAGE value="time" />
     <MESSAGE value="time last edit" />
+    <MESSAGE value="Lab exit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/TimeController.php">
+    <entry file="file://$PROJECT_DIR$/public/packages/soknann/reg/select2/select2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="27" selection-start="1584" selection-end="1584" vertical-scroll-proportion="-16.346153">
+        <state line="21" column="32066" selection-start="65070" selection-end="65070" vertical-scroll-proportion="0.69863015">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/packages/soknann/reg/bs-admin/plugins/chosen/chosen.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4872" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.06995885">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/time/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.76008064">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/time/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.76008064">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/models/SubjectModel.php">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/models/CourseTypeModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/models/LabModel.php">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/TimeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="343" selection-end="343" vertical-scroll-proportion="0.4455645">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.126506">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="60" selection-start="966" selection-end="966" vertical-scroll-proportion="0.61508703">
+        <state line="46" column="53" selection-start="1172" selection-end="1172" vertical-scroll-proportion="-17.0">
+          <folding>
+            <element signature="e#197#224#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="69" selection-start="962" selection-end="962" vertical-scroll-proportion="-9.807693">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/time/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/users/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.76982594">
+        <state line="30" column="75" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.5120482">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/users/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="562" selection-end="562" vertical-scroll-proportion="-13.730769">
+        <state line="38" column="64" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.3313253">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="9" selection-start="2033" selection-end="2033" vertical-scroll-proportion="-26.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="4" selection-start="4470" selection-end="4470" vertical-scroll-proportion="1.2048193">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="424" column="22" selection-start="10461" selection-end="10461" vertical-scroll-proportion="-11.384615">
+        <state line="431" column="3" selection-start="10635" selection-end="10635" vertical-scroll-proportion="-71.80769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/student/add.blade.php">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/rpt_student/rptstudent.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="37" selection-start="1412" selection-end="1436" vertical-scroll-proportion="0.034274194">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/template/dataTable.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-18.307692">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8192771">
+          <folding>
+            <marker date="1406514466216" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="689" selection-end="689" vertical-scroll-proportion="-12.423077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/lab.php">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseTypeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="44" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/LabValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="239" selection-end="239" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/LabController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="33" selection-start="1621" selection-end="1621" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="89" selection-start="939" selection-end="939" vertical-scroll-proportion="-3.5384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/lab/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="62" selection-start="875" selection-end="887" vertical-scroll-proportion="0.25403225">
+        <state line="28" column="26" selection-start="575" selection-end="575" vertical-scroll-proportion="0.5120482">
           <folding />
         </state>
       </provider>

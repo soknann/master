@@ -11,6 +11,7 @@ namespace Soknann\Reg\Libraries;
 
 
 use Soknann\Reg\GroupModel;
+use Soknann\Reg\SubjectModel;
 
 class Lookup {
     public function getUserActiveList(){
@@ -38,10 +39,11 @@ class Lookup {
     }
 
     public function getSubjectList(){
-        $subList = \DB::select('select * from tbl_subject');
+        /*$subList = \DB::select('select * from tbl_subject');
         foreach ($subList as $row){
             $data[$row->sub_id] = $row->sub_name;
         }
-        return $data;
+        return $data;*/
+        return SubjectModel::lists('sub_name','sub_id');
     }
 }

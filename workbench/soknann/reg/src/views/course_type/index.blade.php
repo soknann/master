@@ -4,7 +4,7 @@
 <div class="inner col-lg-12">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header"><i class="icon-list"></i> Course Type</h1>
+            <h1 class="page-header"><i class="icon-list"></i> Course Type List</h1>
             <p>
                <a class="btn btn-primary" href="{{route('reg.course.index')}}">
                     <i class="icon-backward"></i> Back to Course List

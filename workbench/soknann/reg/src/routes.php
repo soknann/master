@@ -421,6 +421,11 @@ Route::get('api/course_type', array(
     'uses' => 'Soknann\Reg\CourseTypeController@getDatatable'
 ));
 
+Route::get('api/time', array(
+    'as' => 'api.time',
+    'uses' => 'Soknann\Reg\TimeController@getDatatable'
+));
+
 Route::get('api/lab', array(
     'as' => 'api.lab',
     'uses' => 'Soknann\Reg\LabController@getDatatable'

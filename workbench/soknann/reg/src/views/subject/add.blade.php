@@ -10,6 +10,10 @@
                 <a class="btn btn-primary" href="{{route('reg.subject.index')}}">
                     <i class="icon-backward"></i> Back to Subject List
                 </a>
+
+                <a class="btn btn-primary" href="{{route('reg.course_type.add')}}">
+                    Go to Course Type <i class="icon-forward"></i>
+                </a>
             </P>
         </div>
 

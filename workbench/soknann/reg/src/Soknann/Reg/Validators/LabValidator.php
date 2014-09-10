@@ -9,7 +9,7 @@ class LabValidator extends ValidatorAssistant
 {
     protected function before()
     {
-        \Rule::add('lab')->numeric()->message('Lab field must be number');
+        \Rule::add('lab')->alphaDashSpace()->message('Lab field must be number');
 
         $this->rules = \Rule::get();
         $this->messages = \Rule::getMessages();

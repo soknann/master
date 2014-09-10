@@ -25,9 +25,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             {{ Former::text('cou_name', 'Course')}}
-                            {{ Former::text('sub_id', 'Subject')}}
-                            {{ Former::text('tea_id', 'Teacher')}}
-                            {{ Former::text('term', 'Term')}}
+                            {{ Former::text('semester', 'Semester')}}
+                            {{ Former::text('amount', 'Amount Of Student')}}
                         </div>
                         <div class="col-lg-6">
                             {{Former::text('start', 'Start Date')
@@ -36,7 +35,6 @@
                             {{Former::text('end', 'End Date')
                             ->placeholder('YYYY-MM-DD')
                             ->required()->readonly()}}
-                            {{ Former::text('price', 'Price ($)')}}
                         </div>
                     </div>
                 </div>

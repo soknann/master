@@ -19,6 +19,7 @@
     <?php echo HTML::style("packages/soknann/reg/bs-admin/css/theme.css"); ?>
     <?php echo HTML::style("packages/soknann/reg/bs-admin/css/MoneAdmin.css"); ?>
     <?php echo HTML::style("packages/soknann/reg/bs-admin/plugins/Font-Awesome/css/font-awesome.css"); ?>
+    <?php echo HTML::style("packages/soknann/reg/select2/select2.css"); ?>
     <!--END GLOBAL STYLES -->
 
     <!-- PAGE LEVEL STYLES -->
@@ -118,6 +119,7 @@
 <?php echo HTML::script("packages/soknann/reg/bs-admin/plugins/daterangepicker/daterangepicker.js"); ?>
 <?php echo HTML::script("packages/soknann/reg/bs-admin/plugins/daterangepicker/moment.min.js"); ?>
 <?php echo HTML::script("packages/soknann/reg/bs-admin/plugins/datepicker/js/bootstrap-datepicker.js"); ?>
+<?php echo HTML::style("packages/soknann/reg/select2/select2.min.js"); ?>
 <?php /*echo HTML::script("packages/soknann/reg/bs-admin/plugins/flot/jquery.flot.js"); */?><!--
 <?php /*echo HTML::script("packages/soknann/reg/bs-admin/plugins/flot/jquery.flot.resize.js"); */?>
 <?php /*echo HTML::script("packages/soknann/reg/bs-admin/plugins/flot/jquery.flot.time.js"); */?>

@@ -10,6 +10,10 @@
                 <a class="btn btn-primary" href="{{route('reg.course_type.index')}}">
                     <i class="icon-backward"></i> Back to Course Type List
                 </a>
+
+                <a class="btn btn-primary" href="{{route('reg.subject.add')}}">
+                    <i class="icon-folder-open"></i> Add New Subject
+                </a>
             </P>
         </div>
     </div>
@@ -26,10 +30,12 @@
                             {{ Former::text('cou_name', 'Course')}}
                         </div>
                         <div class="col-lg-6">
-                            {{Former::select('sub_id', 'Subject')
-                            ->options(\Lookup::getSubjectList())
+                            <div>
+                            {{Former::select('sub_id[]', 'Subject',\Lookup::getSubjectList())
+                            ->class("form-control chzn-select")
                             ->multiple()
                             ->required()}}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,6 +61,8 @@
         format: 'yyyy-mm-dd'
     });
     $('#end').datepicker();
+
+    $('[name="sub_id[]"]').chosen()
 
 </script>
 @stop
