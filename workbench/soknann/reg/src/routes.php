@@ -310,10 +310,10 @@ Route::group(array('prefix' => 'reg', 'before' => 'auth.reg'), function () {
         'uses' => 'Soknann\Reg\CourseController@destroy'
     ));
 
-    Route::get('course/{id}/show', array(
+    /*Route::get('course/{id}/show', array(
         'as' => 'reg.course.show',
         'uses' => 'Soknann\Reg\CourseController@show'
-    ));
+    ));*/
 
     /*
     * End Course

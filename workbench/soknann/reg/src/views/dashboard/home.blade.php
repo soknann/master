@@ -25,14 +25,18 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            {{ Former::text('kh_fname', 'Student Name')->required()}}
+                            {{ Former::select('kh_fname[]', 'Student Name')
+                            ->options(\Lookup::getStudentList())
+                            ->placeholder(" -Select Student- ")
+                            ->class("form-control")
+                            ->required()}}
                             {{ Former::text('kh_lname', 'Teacher Name')->required()}}
                             {{ Former::text('en_fname', 'Time')->required()}}
                             {{ Former::text('en_lname', 'Lab')->required()}}
 
                         </div>
                         <div class="col-lg-6">
-                            {{ Former::select('gender', 'Course', \Lookup::getStudentList())
+                            {{ Former::select('course[]', 'Course', \Lookup::getStudentList())
                             ->placeholder('- Select One -')
                             ->class("form-control")
                             ->style("margin-bottom: 10px")
@@ -52,4 +56,14 @@
     </div>
     {{Former::close()}}
 </div>
+@stop
+
+@section('js')
+<script>
+
+    $('[name="kh_fname[]"]').chosen();
+
+    $('[name="course[]"]').chosen();
+
+</script>
 @stop

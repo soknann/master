@@ -27,9 +27,9 @@
                             {{ Former::select('cou_name[]', 'Course')
                             ->options(\Lookup::getCourseType())
                             ->class("form-control chzn-select")
-                            ->placeholder("Select Course")}}
-                            {{ Former::text('semester', 'Semester')}}
-                            {{ Former::text('amount', 'Amount Of Student')}}
+                            ->placeholder("Select Course")->required()}}
+                            {{ Former::text('semester', 'Semester')->required()}}
+                            {{ Former::text('amount', 'Amount Of Student')->required()}}
                         </div>
                         <div class="col-lg-6">
                             {{Former::text('start', 'Start Date')

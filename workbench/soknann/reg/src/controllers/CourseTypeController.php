@@ -27,7 +27,7 @@ class CourseTypeController extends BaseController
         $item = array(
             'Action',
             'ID',
-            'Course Name',
+            'Course Type',
             'Subject Name',
         );
 //        $data['btnAction'] = array('Add New' => route('cpanel.user.create'));
@@ -77,13 +77,13 @@ class CourseTypeController extends BaseController
         );
     }
 
-    public function show($id)
+    /*public function show($id)
     {
         $data['row'] = CourseTypeModel::where('cou_de_id', '=' ,$id)->first();
         return $this->renderLayout(
             \View::make('soknann/reg::course_type.show', $data)
         );
-    }
+    }*/
 
     public function update($id)
     {

@@ -63,7 +63,7 @@ class SubjectController extends BaseController
         $validator = SubjectValidator::make();
         if ($validator->passes()) {
             $data = new SubjectModel();
-            $this->saveData($data);
+                $this->saveData($data);
 
             return Redirect::back()
                 ->with('success', "Save Successful");

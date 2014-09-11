@@ -48,16 +48,27 @@ class Lookup {
         return SubjectModel::lists('sub_name','sub_id');
     }
 
-    public function getCourseType(){
-        return CourseTypeModel::lists('cou_de_name','cou_de_id');
-    }
-
     public function getSub($code){
         {
             $tmp='';
             $d = SubjectModel::where('sub_id', '=', $code)->limit(1)->get();
             foreach ($d as $key=>$row) {
                 $tmp = $row->sub_name;
+            }
+            return $tmp;
+        }
+    }
+
+    public function getCourseType(){
+        return CourseTypeModel::lists('cou_de_name','cou_de_id');
+    }
+
+    public function getCou($code){
+        {
+            $tmp='';
+            $d = CourseTypeModel::where('cou_de_id', '=', $code)->limit(1)->get();
+            foreach ($d as $key=>$row) {
+                $tmp = $row->cou_de_name;
             }
             return $tmp;
         }

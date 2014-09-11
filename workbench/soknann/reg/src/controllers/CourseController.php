@@ -10,6 +10,7 @@ namespace Soknann\Reg;
 
 use Soknann\Reg\BaseController;
 use Chumper\Datatable\Datatable;
+use Soknann\Reg\Validators\CourseValidator;
 use Soknann\Reg\Validators\StudentValidator;
 use Soknann\Reg\Validators\SubjectValidator;
 use Soknann\Reg\Validators\TeacherValidator;
@@ -60,14 +61,14 @@ class CourseController extends BaseController
 
     public function store()
     {
-        //$validator = SubjectValidator::make();
-       // if ($validator->passes()) {
-            $data = new CourseModel();
-            $this->saveData($data);
+        $validator = CourseValidator::make();
+           if ($validator->passes()) {
+                $data = new CourseModel();
+                $this->saveData($data);
 
-            return Redirect::back()
-                ->with('success', "Save Successful");
-        //}
+                return Redirect::back()
+                    ->with('success', "Save Successful");
+           }
         return \Redirect::back()->withInput()->withErrors($validator->errors());
     }
 
@@ -79,40 +80,40 @@ class CourseController extends BaseController
         );
     }
 
-    public function show($id)
+    /*public function show($id)
     {
         $data['row'] = SubjectModel::where('sub_id', '=' ,$id)->first();
         return $this->renderLayout(
             \View::make('soknann/reg::subject.show', $data)
         );
-    }
+    }*/
 
     public function update($id)
     {
         try {
-           $validator = SubjectValidator::make();
+           $validator = CourseValidator::make();
            if ($validator->passes()) {
 
-                $data = SubjectModel::where('sub_id', '=' ,$id)->first();
+                $data = CourseModel::where('cou_id', '=' ,$id)->first();
                 $this->saveData($data,false);
 
-                return Redirect::route('reg.subject.index')
+                return Redirect::route('reg.course.index')
                     ->with('success', "Update Successful");
            }
             return Redirect::back()->withInput()->withErrors($validator->errors());
         } catch (\Exception $e) {
-            return Redirect::route('reg.subject.index')->with('error', "Errors ");
+            return Redirect::route('reg.course.index')->with('error', "Errors ");
         }
     }
 
     public function destroy($id)
     {
         try {
-            $data = SubjectModel::where('sub_id', '=', $id)->first();
+            $data = CourseModel::where('cou_id', '=', $id)->first();
             $data->delete();
-            return Redirect::back()->with('success', trans('soknann/reg::subject.delete_success'));
+            return Redirect::back()->with('success', trans('soknann/reg::course.delete_success'));
         } catch (\Exception $e) {
-            return Redirect::route('reg.subject.index')->with('error', trans('soknann/reg::db_error.fail'));
+            return Redirect::route('reg.course.index')->with('error', trans('soknann/reg::db_error.fail'));
         }
     }
 
@@ -121,9 +122,9 @@ class CourseController extends BaseController
         if ($store){
             $data->cou_id = Input::get('cou_id');
         }
-        $data->tea_id = Input::get('tea_id');
+        $data->cou_de_id = json_encode(Input::get('cou_name'));
         $data->cou_semester = Input::get('semester');
-        $data->cou_amount_of_student = Input::get('student_amount');
+        $data->cou_amount_of_student = Input::get('amount');
         $data->cou_start_date = Input::get('start');
         $data->cou_end_date = Input::get('end');
 //        $data->remember_token = '';
@@ -134,9 +135,8 @@ class CourseController extends BaseController
     {
         $item = array(
             'cou_id',
-            'cou_name',
-            'tea_id',
-            'cou_term',
+            'cou_de_id',
+            'cou_semester',
             'cou_amount_of_student',
             'cou_start_date',
             'cou_end_date',
@@ -148,14 +148,20 @@ class CourseController extends BaseController
                 'action',
                 function ($model) {
                     return \Action::make()
-                        ->show(route('reg.course.show',$model->cou_id))
+                        //->show(route('reg.course.show',$model->cou_id))
                         ->edit(route('reg.course.edit', $model->cou_id))
                         ->delete(route('reg.course.destroy', $model->cou_id))
                         ->get();
                 }
             )
             ->showColumns($item)
-            ->searchColumns(array('cou_id','tea_id','cou_semester','cou_amount_of_student'))
+            ->addColumn('cou_de_id',function($model){
+                foreach(json_decode($model->cou_de_id) as $key=> $row){
+                    $tmp[] = \Lookup::getCou($row);
+                }
+                return implode(', ',$tmp);
+            })
+            ->searchColumns(array('cou_id','cou_de_id','cou_semester','cou_amount_of_student'))
             ->orderColumns($item)
             ->make();
     }
