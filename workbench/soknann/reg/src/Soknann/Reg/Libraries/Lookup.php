@@ -10,6 +10,7 @@
 namespace Soknann\Reg\Libraries;
 
 
+use Soknann\Reg\CourseTypeModel;
 use Soknann\Reg\GroupModel;
 use Soknann\Reg\SubjectModel;
 
@@ -45,5 +46,20 @@ class Lookup {
         }
         return $data;*/
         return SubjectModel::lists('sub_name','sub_id');
+    }
+
+    public function getCourseType(){
+        return CourseTypeModel::lists('cou_de_name','cou_de_id');
+    }
+
+    public function getSub($code){
+        {
+            $tmp='';
+            $d = SubjectModel::where('sub_id', '=', $code)->limit(1)->get();
+            foreach ($d as $key=>$row) {
+                $tmp = $row->sub_name;
+            }
+            return $tmp;
+        }
     }
 }

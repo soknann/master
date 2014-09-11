@@ -4,16 +4,16 @@
 <div class="inner col-lg-12">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header"><i class="icon-edit"></i> Subject Update Page</h1>
+            <h1 class="page-header"><i class="icon-archive"></i> Course Type Update Page</h1>
             <p>
-                <a class="btn btn-primary" href="{{route('reg.subject.index')}}">
-                    <i class="icon-backward"></i> Back to Subject List
+                <a class="btn btn-primary" href="{{route('reg.course_type.index')}}">
+                    <i class="icon-backward"></i> Back to Course Type List
                 </a>
             </P>
         </div>
 
     </div>
-    {{Former::open(route('reg.subject.update',$row->sub_id))->method('PUT')}}
+    {{Former::open(route('reg.course_type.update',$row->cou_de_id))->method('PUT')}}
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default">
@@ -23,17 +23,14 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            {{ Former::text('subject', 'Subject',$row->sub_name)}}
-                            {{ Former::text('duration', 'Duration',$row->sub_duration)}}
-                            {{ Former::text('price', 'Price ($)',$row->sub_cost)}}
+                            {{ Former::text('cou_name', 'Course',$row->cou_de_name)->required()}}
                         </div>
                         <div class="col-lg-6">
-                            {{Former::text('start', 'Start Date',$row->sub_start_date)
-                            ->placeholder('YYYY-MM-DD')
-                            ->readonly()}}
-                            {{Former::text('end', 'End Date',$row->sub_end_date)
-                            ->placeholder('YYYY-MM-DD')
-                            ->readonly()}}
+                            {{Former::select('sub_id[]', 'Subject')
+                            ->options(\Lookup::getSubjectList(),json_decode($row->sub_id, true))
+                            ->class("form-control chzn-select")
+                            ->multiple()
+                            ->required()}}
                         </div>
                     </div>
                 </div>
@@ -58,6 +55,8 @@
         format: 'yyyy-mm-dd'
     });
     $('#end').datepicker();
+
+    $('[name="sub_id[]"]').chosen();
 
 </script>
 @stop

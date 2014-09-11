@@ -354,11 +354,6 @@ Route::group(array('prefix' => 'reg', 'before' => 'auth.reg'), function () {
         'uses' => 'Soknann\Reg\CourseTypeController@destroy'
     ));
 
-    Route::get('course_type/{id}/show', array(
-        'as' => 'reg.course_type.show',
-        'uses' => 'Soknann\Reg\CourseTypeController@show'
-    ));
-
     /*
     * End Course Type
     */

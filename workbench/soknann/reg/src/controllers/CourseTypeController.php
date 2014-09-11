@@ -10,6 +10,7 @@ namespace Soknann\Reg;
 
 use Soknann\Reg\BaseController;
 use Chumper\Datatable\Datatable;
+use Soknann\Reg\Validators\CourseTypeValidator;
 use Soknann\Reg\Validators\StudentValidator;
 use Soknann\Reg\Validators\SubjectValidator;
 use Soknann\Reg\Validators\TeacherValidator;
@@ -27,6 +28,7 @@ class CourseTypeController extends BaseController
             'Action',
             'ID',
             'Course Name',
+            'Subject Name',
         );
 //        $data['btnAction'] = array('Add New' => route('cpanel.user.create'));
         $tb = new Datatable();
@@ -56,14 +58,14 @@ class CourseTypeController extends BaseController
 
     public function store()
     {
-        //$validator = SubjectValidator::make();
-       // if ($validator->passes()) {
+        $validator = CourseTypeValidator::make();
+        if ($validator->passes()) {
             $data = new CourseTypeModel();
             $this->saveData($data);
 
             return Redirect::back()
                 ->with('success', "Save Successful");
-        //}
+        }
         return \Redirect::back()->withInput()->withErrors($validator->errors());
     }
 
@@ -77,38 +79,38 @@ class CourseTypeController extends BaseController
 
     public function show($id)
     {
-        $data['row'] = SubjectModel::where('sub_id', '=' ,$id)->first();
+        $data['row'] = CourseTypeModel::where('cou_de_id', '=' ,$id)->first();
         return $this->renderLayout(
-            \View::make('soknann/reg::subject.show', $data)
+            \View::make('soknann/reg::course_type.show', $data)
         );
     }
 
     public function update($id)
     {
         try {
-           $validator = SubjectValidator::make();
+           $validator = CourseTypeValidator::make();
            if ($validator->passes()) {
 
-                $data = SubjectModel::where('sub_id', '=' ,$id)->first();
+                $data = CourseTypeModel::where('cou_de_id', '=' ,$id)->first();
                 $this->saveData($data,false);
 
-                return Redirect::route('reg.subject.index')
+                return Redirect::route('reg.course_type.index')
                     ->with('success', "Update Successful");
            }
             return Redirect::back()->withInput()->withErrors($validator->errors());
         } catch (\Exception $e) {
-            return Redirect::route('reg.subject.index')->with('error', "Errors ");
+            return Redirect::route('reg.course_type.index')->with('error', "Errors ");
         }
     }
 
     public function destroy($id)
     {
         try {
-            $data = SubjectModel::where('sub_id', '=', $id)->first();
+            $data = CourseTypeModel::where('cou_de_id', '=', $id)->first();
             $data->delete();
-            return Redirect::back()->with('success', trans('soknann/reg::subject.delete_success'));
+            return Redirect::back()->with('success', trans('soknann/reg::course_type.delete_success'));
         } catch (\Exception $e) {
-            return Redirect::route('reg.subject.index')->with('error', trans('soknann/reg::db_error.fail'));
+            return Redirect::route('reg.course_type.index')->with('error', trans('soknann/reg::db_error.fail'));
         }
     }
 
@@ -137,14 +139,19 @@ class CourseTypeController extends BaseController
                 'action',
                 function ($model) {
                     return \Action::make()
-                        ->show(route('reg.course_type.show',$model->cou_de_id))
                         ->edit(route('reg.course_type.edit', $model->cou_de_id))
                         ->delete(route('reg.course_type.destroy', $model->cou_de_id))
                         ->get();
                 }
             )
             ->showColumns($item)
-            ->searchColumns(array('cou_de_id','sub_id','cou_name_id'))
+            ->addColumn('sub_id',function($model){
+                foreach(json_decode($model->sub_id) as $key=> $row){
+                    $tmp[] = \Lookup::getSub($row);
+                }
+                return implode(', ',$tmp);
+            })
+            ->searchColumns(array('cou_de_id','sub_id','cou_de_name'))
             ->orderColumns($item)
             ->make();
     }

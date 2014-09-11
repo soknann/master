@@ -24,7 +24,10 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            {{ Former::text('cou_name', 'Course')}}
+                            {{ Former::select('cou_name[]', 'Course')
+                            ->options(\Lookup::getCourseType())
+                            ->class("form-control chzn-select")
+                            ->placeholder("Select Course")}}
                             {{ Former::text('semester', 'Semester')}}
                             {{ Former::text('amount', 'Amount Of Student')}}
                         </div>
@@ -60,6 +63,8 @@
         format: 'yyyy-mm-dd'
     });
     $('#end').datepicker();
+
+    $('[name="cou_name[]"]').chosen();
 
 </script>
 @stop

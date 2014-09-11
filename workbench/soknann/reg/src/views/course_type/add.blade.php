@@ -27,15 +27,14 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            {{ Former::text('cou_name', 'Course')}}
+                            {{ Former::text('cou_name', 'Course')->required()}}
                         </div>
                         <div class="col-lg-6">
-                            <div>
-                            {{Former::select('sub_id[]', 'Subject',\Lookup::getSubjectList())
+                            {{Former::select('sub_id[]', 'Subject')
+                            ->options(\Lookup::getSubjectList())
                             ->class("form-control chzn-select")
                             ->multiple()
                             ->required()}}
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,7 +61,7 @@
     });
     $('#end').datepicker();
 
-    $('[name="sub_id[]"]').chosen()
+    $('[name="sub_id[]"]').chosen();
 
 </script>
 @stop
