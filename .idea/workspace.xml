@@ -2,38 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d813bd15-68cd-4c66-8371-8747ba94d895" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/CourseValidator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/course.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/subject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/teacher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseController.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseTypeController.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseTypeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/models/HomeModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/dashboard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/HomeController.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/HomeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/SubjectController.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/SubjectController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/edit.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/home.blade.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/home.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/routes.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/student.php" afterPath="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/student.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="master.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410406291025" ignored="false" />
-    <file path="/dummy.txt" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410339128621" ignored="false" />
+    <file path="/Dummy.txt" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410488145320" ignored="false" />
+    <file path="/dummy.txt" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410491964081" ignored="false" />
     <file path="/master.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410429665326" ignored="false" />
-    <file path="/index.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410342073306" ignored="false" />
+    <file path="/index.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410491022544" ignored="false" />
     <file path="/CourseTypeController.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410404495865" ignored="false" />
     <file path="/CourseTypeModel.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1409391135206" ignored="false" />
     <file path="/add.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410367763560" ignored="false" />
-    <file path="/Lookup.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410408990585" ignored="false" />
+    <file path="/Lookup.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410508951504" ignored="false" />
     <file path="/TimeController.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410279824231" ignored="false" />
     <file path="/login.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1409989199221" ignored="false" />
-    <file path="/home.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410429738067" ignored="false" />
+    <file path="/home.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410493981650" ignored="false" />
     <file path="/left.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410281426821" ignored="false" />
-    <file path="/routes.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410405214072" ignored="false" />
+    <file path="/routes.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410491285429" ignored="false" />
     <file path="/header.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410252799094" ignored="false" />
-    <file path="/edit.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410425129694" ignored="false" />
+    <file path="/edit.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410510425856" ignored="false" />
     <file path="/time.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410279013196" ignored="false" />
     <file path="/show.blade.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410366438727" ignored="false" />
     <file path="/TimeValidator.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410279683672" ignored="false" />
@@ -49,6 +44,9 @@
     <file path="/SubjectController.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410422540722" ignored="false" />
     <file path="/CourseValidator.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410425350551" ignored="false" />
     <file path="/chosen.css" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410429553456" ignored="false" />
+    <file path="/HomeController.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410509503777" ignored="false" />
+    <file path="/RgisterModel.php" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410456791911" ignored="false" />
+    <file path="/a.dummy" changelist="d813bd15-68cd-4c66-8371-8747ba94d895" time="1410456805275" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,39 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Lookup.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Lookup.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="5" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.5544355">
+            <state line="58" column="5" selection-start="1497" selection-end="1497" vertical-scroll-proportion="11.576923">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/add.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1755" selection-end="2022" vertical-scroll-proportion="-6.3461537">
-              <folding>
-                <marker date="1410367048615" expanded="true" signature="91:1745" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="113:639" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="145:628" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="243:613" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="329:425" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="506:596" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="714:1578" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="746:1567" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="792:1552" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="836:887" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="928:1533" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="966:1510" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="1013:1124" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="1171:1483" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="1608:1714" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="1777:2015" placeholder="..." />
-                <marker date="1410367048615" expanded="true" signature="1806:1842" placeholder="{&quot;format&quot;: 'yyyy-mm-dd'...}" />
-                <marker date="1410367048615" expanded="true" signature="1901:1937" placeholder="{&quot;format&quot;: 'yyyy-mm-dd'...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -108,34 +78,7 @@
       <file leaf-file-name="CourseValidator.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/CourseValidator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.8846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="8" selection-start="3110" selection-end="3110" vertical-scroll-proportion="-59.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="114" selection-start="1384" selection-end="1384" vertical-scroll-proportion="-9.923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="53" selection-start="1141" selection-end="1149" vertical-scroll-proportion="-19.615385">
+            <state line="10" column="5" selection-start="218" selection-end="218" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -144,7 +87,65 @@
       <file leaf-file-name="home.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="5" selection-start="2458" selection-end="2458" vertical-scroll-proportion="-16.461538">
+            <state line="54" column="93" selection-start="2399" selection-end="2399" vertical-scroll-proportion="-10.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="4" selection-start="472" selection-end="544" vertical-scroll-proportion="-5.1153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="112" column="56" selection-start="3200" selection-end="3200" vertical-scroll-proportion="-0.12701613">
+              <folding>
+                <element signature="e#185#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="79" selection-start="580" selection-end="580" vertical-scroll-proportion="-5.8846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="108" column="0" selection-start="3119" selection-end="3526" vertical-scroll-proportion="-5.423077">
+              <folding>
+                <element signature="e#121#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="61" selection-start="312" selection-end="312" vertical-scroll-proportion="-5.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="45" selection-start="1450" selection-end="1450" vertical-scroll-proportion="-23.076923">
               <folding />
             </state>
           </provider>
@@ -169,6 +170,7 @@
       <command text="php artisan dump-autoload" />
       <command text="php artisan dump-autoload" />
       <command text="php artisan dump-autoload" />
+      <command text="php artisan dump-autoload" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -179,25 +181,28 @@
       <MyDateState />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/SubjectValidator.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/SubjectController.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseTypeController.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/routes.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/course.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/teacher.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/student.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/subject.php" />
         <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/edit.blade.php" />
         <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php" />
         <option value="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/CourseValidator.php" />
         <option value="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseController.php" />
         <option value="$PROJECT_DIR$/public/packages/soknann/reg/bs-admin/plugins/chosen/chosen.css" />
         <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/template/master.blade.php" />
-        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/home.blade.php" />
         <option value="$PROJECT_DIR$/public/packages/soknann/reg/bs-admin/plugins/chosen/chosen.min.css" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/models/RgisterModel.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/models/HomeModel.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/index.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/home.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/routes.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/edit.blade.php" />
+        <option value="$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/dashboard.php" />
       </list>
     </option>
   </component>
@@ -392,109 +397,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workbench" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soknann" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="subject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workbench" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soknann" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workbench" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soknann" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="course_type" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -834,6 +737,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -846,11 +767,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp\www\master\workbench\soknann\reg\src\Soknann\Reg\Validators" />
       <recent name="D:\wamp\www\master\workbench\soknann\reg\src\lang\en" />
-      <recent name="D:\wamp\www\master\workbench\soknann\reg\src\controllers" />
-      <recent name="D:\wamp\www\master\workbench\soknann\reg\src\views\lab" />
+      <recent name="D:\wamp\www\master\workbench\soknann\reg\src\views\dashboard" />
       <recent name="D:\wamp\www\master\workbench\soknann\reg\src\models" />
+      <recent name="D:\wamp\www\master\workbench\soknann\reg\src\Soknann\Reg\Validators" />
+      <recent name="D:\wamp\www\master\workbench\soknann\reg\src\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp\www\master\workbench\soknann\reg\src\views" />
@@ -905,32 +826,36 @@
       <created>1410406298752</created>
       <updated>1410406298752</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="register release">
+      <created>1410430168412</created>
+      <updated>1410430168412</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1365" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3046815" sideWeight="0.6713533" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31542593" sideWeight="0.67250437" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32749563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32749563" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32749563" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -975,7 +900,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="course type exit" />
+    <option name="LAST_COMMIT_MESSAGE" value="register release" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -996,139 +921,144 @@
     <MESSAGE value="Lab exit" />
     <MESSAGE value="course type" />
     <MESSAGE value="course type exit" />
+    <MESSAGE value="register release" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/course.php">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/UserValidator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="46" selection-end="46" vertical-scroll-proportion="0.06854839">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.10240964">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/routes.php">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="318" column="16" selection-start="7955" selection-end="7955" vertical-scroll-proportion="-12.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="735" selection-end="735" vertical-scroll-proportion="0.3617021">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="114" selection-start="1384" selection-end="1384" vertical-scroll-proportion="-9.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/CourseValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="8" selection-start="3110" selection-end="3110" vertical-scroll-proportion="-59.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="53" selection-start="1141" selection-end="1149" vertical-scroll-proportion="-19.615385">
+        <state line="131" column="31" selection-start="4049" selection-end="4049" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course_type/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1755" selection-end="2022" vertical-scroll-proportion="-6.3461537">
+        <state line="51" column="0" selection-start="1755" selection-end="2022" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1410367048615" expanded="true" signature="91:1745" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="113:639" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="145:628" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="243:613" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="329:425" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="506:596" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="714:1578" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="746:1567" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="792:1552" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="836:887" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="928:1533" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="966:1510" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="1013:1124" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="1171:1483" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="1608:1714" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="1777:2015" placeholder="..." />
-            <marker date="1410367048615" expanded="true" signature="1806:1842" placeholder="{&quot;format&quot;: 'yyyy-mm-dd'...}" />
-            <marker date="1410367048615" expanded="true" signature="1901:1937" placeholder="{&quot;format&quot;: 'yyyy-mm-dd'...}" />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="{&quot;format&quot;: 'yyyy-mm-dd'...}" />
+            <marker date="1410367048615" expanded="true" signature="-1:-1" placeholder="{&quot;format&quot;: 'yyyy-mm-dd'...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/soknann/reg/select2/select2.jquery.json">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="92" selection-start="141" selection-end="141" vertical-scroll-proportion="0.10559006">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/soknann/reg/select2/select2-bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/models/HomeModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="23" selection-end="24" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/soknann/reg/select2/select2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="64" selection-start="2359" selection-end="2360" vertical-scroll-proportion="0.33264464">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/soknann/reg/bs-admin/plugins/chosen/chosen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="14" selection-start="446" selection-end="446" vertical-scroll-proportion="0.63457763">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/template/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="9" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.75403225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/packages/soknann/reg/bs-admin/plugins/chosen/chosen.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="158" selection-end="158" vertical-scroll-proportion="0.07024793">
+        <state line="17" column="2" selection-start="271" selection-end="271" vertical-scroll-proportion="0.40963855">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="5" selection-start="2458" selection-end="2458" vertical-scroll-proportion="-16.461538">
+        <state line="54" column="93" selection-start="2399" selection-end="2399" vertical-scroll-proportion="-10.461538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Libraries/Lookup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="5" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.5544355">
+        <state line="58" column="5" selection-start="1497" selection-end="1497" vertical-scroll-proportion="11.576923">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="53" selection-start="1141" selection-end="1149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/Soknann/Reg/Validators/CourseValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="218" selection-end="218" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="61" selection-start="312" selection-end="312" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/CourseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="0" selection-start="3119" selection-end="3526" vertical-scroll-proportion="-5.423077">
+          <folding>
+            <element signature="e#121#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/course/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="472" selection-end="544" vertical-scroll-proportion="-5.1153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/views/dashboard/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="79" selection-start="580" selection-end="580" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="45" selection-start="1450" selection-end="1450" vertical-scroll-proportion="-23.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/lang/en/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="47" selection-end="47" vertical-scroll-proportion="0.06854839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/soknann/reg/src/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="56" selection-start="3200" selection-end="3200" vertical-scroll-proportion="-0.12701613">
+          <folding>
+            <element signature="e#185#216#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

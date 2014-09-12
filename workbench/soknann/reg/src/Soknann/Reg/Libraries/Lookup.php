@@ -12,7 +12,10 @@ namespace Soknann\Reg\Libraries;
 
 use Soknann\Reg\CourseTypeModel;
 use Soknann\Reg\GroupModel;
+use Soknann\Reg\LabModel;
 use Soknann\Reg\SubjectModel;
+use Soknann\Reg\TeacherModel;
+use Soknann\Reg\TimeModel;
 
 class Lookup {
     public function getUserActiveList(){
@@ -39,6 +42,23 @@ class Lookup {
         return $data;
     }
 
+    public function getTeacherList(){
+        $teaList = \DB::select('select * from tbl_teacher');
+        foreach ($teaList as $row){
+            $data[$row->tea_id] = $row->tea_kh_fname.' '. $row->tea_kh_lname;
+        }
+        return $data;
+    }
+
+    public function getTime(){
+        $timeList = \DB::select('select * from tbl_time');
+        foreach ($timeList as $row){
+            $data[$row->ti_id] = $row->time.' For '. $row->weekly;
+        }
+        return $data;
+    }
+
+
     public function getSubjectList(){
         /*$subList = \DB::select('select * from tbl_subject');
         foreach ($subList as $row){
@@ -46,6 +66,14 @@ class Lookup {
         }
         return $data;*/
         return SubjectModel::lists('sub_name','sub_id');
+    }
+
+    public function getCourseType(){
+        return CourseTypeModel::lists('cou_de_name','cou_de_id');
+    }
+
+    public function getLab(){
+        return LabModel::lists('lab_name', 'lab_id');
     }
 
     public function getSub($code){
@@ -57,10 +85,6 @@ class Lookup {
             }
             return $tmp;
         }
-    }
-
-    public function getCourseType(){
-        return CourseTypeModel::lists('cou_de_name','cou_de_id');
     }
 
     public function getCou($code){

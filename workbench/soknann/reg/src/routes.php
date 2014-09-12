@@ -26,6 +26,34 @@ Route::group(array('prefix' => 'reg', 'before' => 'auth.reg'), function () {
         'as' => 'reg.home',
         'uses' => 'Soknann\Reg\HomeController@getHome',
     ));
+
+    Route::get('dashboard',array(
+        'as' => 'reg.dashboard.index',
+        'uses' => 'Soknann\Reg\HomeController@index',
+    ));
+
+    Route::post('dashboard', array(
+        'as' => 'reg.dashboard.store',
+        'uses' => 'Soknann\Reg\HomeController@store',
+    ));
+
+    Route::get('dashboard/{id}/edit', array(
+        'as' => 'reg.dashboard.edit',
+        'uses' => 'Soknann\Reg\HomeController@edit',
+    ));
+
+    Route::put('dashboard/update/{id}', array(
+        'as' => 'reg.dashboard.update',
+        'uses' => 'Soknann\Reg\HomeController@update',
+    ));
+
+    Route::delete('dashboard/destroy/{id}', array(
+        'as' => 'reg.dashboard.destroy',
+        'uses' => 'Soknann\Reg\HomeController@destroy',
+    ));
+
+
+
     Route::get('logout', array(
         'as' => 'reg.logout',
         'uses' => 'Soknann\Reg\HomeController@getLogout',
@@ -425,6 +453,12 @@ Route::get('api/lab', array(
     'as' => 'api.lab',
     'uses' => 'Soknann\Reg\LabController@getDatatable'
 ));
+
+Route::get('api/dashboard', array(
+    'as' => 'api.dashboard',
+    'uses' => 'Soknann\Reg\HomeController@getDatatable'
+));
+
 
 Route::get('test', function () {
     return Hash::make('123456');
